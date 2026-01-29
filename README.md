@@ -30,6 +30,5 @@ npm run deploy
 
 - `index.html` - Main HTML file
 - `src/main.js` - Vue app entry point
-- `src/App.vue` - Root Vue component
 - `src/components/` - Vue components
 - `vite.config.js` - Vite configuration with GitHub Pages base path
