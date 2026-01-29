@@ -1,0 +1,35 @@
+# Vue App
+
+A basic Vue.js application setup with Vite and configured for GitHub Pages deployment.
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deploy to GitHub Pages
+
+The project is configured to automatically deploy to GitHub Pages when pushing to the main branch. The deployment is handled by GitHub Actions workflow in `.github/workflows/deploy.yml`.
+
+To deploy manually:
+
+```bash
+npm run build
+npm run deploy
+```
+
+## Project Structure
+
+- `index.html` - Main HTML file
+- `src/main.js` - Vue app entry point
+- `src/App.vue` - Root Vue component
+- `src/components/` - Vue components
+- `vite.config.js` - Vite configuration with GitHub Pages base path
