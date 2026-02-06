@@ -1,4 +1,5 @@
 <template>
+  <!-- Test comment added to ShopMakesSample.vue -->
   <div class="sokal-container sokal-py-3">
     <div v-if="loading">Loading makes...</div>
 
